@@ -4,6 +4,8 @@ from Tkinter import *
 import random
 from time import *
 import thread
+import sys
+sys.setrecursionlimit(sys.maxint)
 
 def callback1():  # difficulty
     global diff
